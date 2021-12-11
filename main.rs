@@ -20,6 +20,8 @@ fn one(){
                     if val > previous{
                         count += 1;
                         previous = val;
+                    } else {
+                        previous = val;
                     }
                 }
             }
